@@ -1,0 +1,1241 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'txt_log'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                },
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 13,
+                  "endLine": 124,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "terminal_add",
+                  "decoratedName": "terminal_add",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'txt_log' is an Input to 'strlen' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\string.h:215)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'win==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'txt_log' is an Input to 'strlen' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\string.h:215)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'txt_len>512' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'old_len+txt_len>512')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'new_start<old_len' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'new_start==old_len')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'j' may be NULL (Enter this loop)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'txt_log[-1]', (readable range is 0 to 512)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'txt_log'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 9,
+                  "endLine": 127,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "terminal_add",
+                  "decoratedName": "terminal_add",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'txt_log' is an Input to 'strlen' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\string.h:215)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'win==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'txt_log' is an Input to 'strlen' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\string.h:215)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'txt_len>512' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'old_len+txt_len>512')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'new_start<old_len' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'new_start==old_len' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'j<old_len' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'txt_log[65535]', (writable range is 0 to 512)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6e0fa90c00ad038f7e20b1e8c5e987d212dd6674e20c03be666ca5f7b0248549"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_examples/lv_apps/terminal/terminal.h"
+          },
+          "hashes": {
+            "sha-256": "412cc115159767b784f7047da31ef0cb167258147208f90320a199e9c14058a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lvgl.h"
+          },
+          "hashes": {
+            "sha-256": "4e6a20d101dd91aee9c84e50270881b23de1e8266932ea4e5a5012302e0060d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_version.h"
+          },
+          "hashes": {
+            "sha-256": "375791bdf096b1143e886145e0dea0d17be3ce5120f830d778da9d7273820594"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_log.h"
+          },
+          "hashes": {
+            "sha-256": "ab5307b312f745923329a1082a3d43468b2a97bbc666e716b5b9bcc54214ad76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_conf.h"
+          },
+          "hashes": {
+            "sha-256": "835354b0fa905ef70c1a11e3b99a882ea3fdd0747625f0f373cdc8fbfc9ed7ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_conf_checker.h"
+          },
+          "hashes": {
+            "sha-256": "9de88bb356f18fe7e8fac37bb5d0d46c1bd49c78163b13ea4de62eff5b178a5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_task.h"
+          },
+          "hashes": {
+            "sha-256": "c5e324974bc95bfd877e3db8669ff73dcb8165dee1ec53fb57bbc0b98331283c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_mem.h"
+          },
+          "hashes": {
+            "sha-256": "4dc4a891d3dff4bc7e91cff79e93f016bafbe2e82720ad59fda7f61086892a6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_ll.h"
+          },
+          "hashes": {
+            "sha-256": "3d90aa411cb6dc79ba88322d4e2451764f3b66d42ddff34cfb89615603df1dc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_hal/lv_hal.h"
+          },
+          "hashes": {
+            "sha-256": "cd3c8f109beb3e7ebf8201ee9ec8d9b29c1e455eeb6469bc9b6f82e213885c3c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_hal/lv_hal_disp.h"
+          },
+          "hashes": {
+            "sha-256": "af1b5e5b2b8b1669fb62b16d68bf1fb1a279820756615466e8b5f506613b3929"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_color.h"
+          },
+          "hashes": {
+            "sha-256": "e0049bed97154aa91d3b8e0cdb2ede9424430c0ad15b2270d6b62b5423c34eaf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_area.h"
+          },
+          "hashes": {
+            "sha-256": "4f0c2346be1484c4ea8c427267dcaaf7387b45ab6b5ffde45d3370515baa38b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_hal/lv_hal_indev.h"
+          },
+          "hashes": {
+            "sha-256": "ac7d76e2755f17372584f8221755714575aff3b72a9655c4f7fff150bfc78f9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_obj.h"
+          },
+          "hashes": {
+            "sha-256": "9aff9aa92748e6fe71f0f91410e506c4dac7713429b09d82154e97d419f55cc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_style.h"
+          },
+          "hashes": {
+            "sha-256": "6a8810250f9f8aa9b85eedc805eacbb3a2b1be6bdb2c5952731f031f59f0cfc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_font.h"
+          },
+          "hashes": {
+            "sha-256": "51c29173818602adb07fa5ac2814b432688e52eba5b741810da53b213e95bb54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_symbol_def.h"
+          },
+          "hashes": {
+            "sha-256": "18197127869d8e7680aadbb7cf0ed283078a1743439133d0ce019123e8610a5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_fonts/lv_font_builtin.h"
+          },
+          "hashes": {
+            "sha-256": "57a59522eb5ade198dff616d3346874550b80a4e10d471b4a60b41325a2851ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_anim.h"
+          },
+          "hashes": {
+            "sha-256": "6bb8faf60493c3dee77f1ffe83697905c7dc48696b023fc4d538507f79d9ed47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_hal/lv_hal_tick.h"
+          },
+          "hashes": {
+            "sha-256": "261aa2f7fa66c43cb1177668e612934b97c31e7552f56938966183dbce26bff0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_group.h"
+          },
+          "hashes": {
+            "sha-256": "736ec71f15e4e8dcaf73fdd99f07631dccec36072bb5b5d67e8fc662567616c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_lang.h"
+          },
+          "hashes": {
+            "sha-256": "c5aac63b1b796c2bb3d7b05e131e972e849c220dc8e6b81e6a5592dda6105fa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_vdb.h"
+          },
+          "hashes": {
+            "sha-256": "3af4d3e317dc1feb2fcd5a76058904291740a808a90bbc53d9e7e7b23d52992b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_refr.h"
+          },
+          "hashes": {
+            "sha-256": "62552ce5f06c733064873127f3e6d3b4a8efad035359a08fff6695b948dc2851"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme.h"
+          },
+          "hashes": {
+            "sha-256": "ecafa9bd7f7e7b8495c33081ff79b1c32e000cf7d41cc6ba1771fdd05760516e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_templ.h"
+          },
+          "hashes": {
+            "sha-256": "ee793c810e5d9be0e6f8aaf9f083cbd394bb57ce0c81c17f619ec37a5ec84058"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_default.h"
+          },
+          "hashes": {
+            "sha-256": "f3098e7ee16e63730f2b322e82fa8257192241c24109669cec396208f91bc28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_alien.h"
+          },
+          "hashes": {
+            "sha-256": "0d719013a5f2802c24ab62c91cf69a89e65072de78792eae8ce697b39d59da91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_night.h"
+          },
+          "hashes": {
+            "sha-256": "519a989daab3610a49faae570228f3903cf4480db382240ba8c70b737f71de96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_zen.h"
+          },
+          "hashes": {
+            "sha-256": "050bb81707e0b3954e2fcfd2a3a6f26a172d27495bb98239342d05edfe8a2955"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_mono.h"
+          },
+          "hashes": {
+            "sha-256": "2f8a4e8ba42fc2996fcd0549a440f11465f7f40c765b26728a7139647bea3981"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_nemo.h"
+          },
+          "hashes": {
+            "sha-256": "f49cbdb6f3b172793242608aaf9e4e26c9b58efa2b3a140fce7c8e89a28e13fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_themes/lv_theme_material.h"
+          },
+          "hashes": {
+            "sha-256": "41ac7ccefbd6dd2ee9b62d41f4317eb6114891a42918071450f73f4e9931f78d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_btn.h"
+          },
+          "hashes": {
+            "sha-256": "5f7cc1a0e556d16068f0d0d2cbc7faf44a567615746385162b0faaeb9adda005"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_cont.h"
+          },
+          "hashes": {
+            "sha-256": "dd92bd500fd30100356241ca43c435519211e6ca35c013617bb9430cce1306cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_indev.h"
+          },
+          "hashes": {
+            "sha-256": "dc0f911e3e383865ad5c27dd7eda56a44da3be6f59c99387695429125da206b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_imgbtn.h"
+          },
+          "hashes": {
+            "sha-256": "c1b9cf56297df527c3fa03557f81a574f82622f13e204e66f03a0a3d07c7e5b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_img.h"
+          },
+          "hashes": {
+            "sha-256": "48b085827fb6f54637722c9f37eda8d064be79538c377f309a06f7502f995c37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw.h"
+          },
+          "hashes": {
+            "sha-256": "742b3b99bc78569d9f533747638c689d25847395cd68086c7c1c8409bdd3bfca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_txt.h"
+          },
+          "hashes": {
+            "sha-256": "9500a9ae555621d32c0e7a76019f8790887e90f54cee312ca5adc97a70a742f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_rect.h"
+          },
+          "hashes": {
+            "sha-256": "696b148469896f561cf690306f69bbd561dde40279a68ac24b4897f78f918a52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_label.h"
+          },
+          "hashes": {
+            "sha-256": "edbd59bbce4bd9db2cc2334fb6572d66c723694f5321c65f63f5295e76ed305d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.h"
+          },
+          "hashes": {
+            "sha-256": "c66eff2ba109188d20af0ae2fce973f3ec838ba751a9d41f795a373b15da2c7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_triangle.h"
+          },
+          "hashes": {
+            "sha-256": "babf929a88c6e5b4c676caa0830b17c8c01562da67c045aacdd61b2f420dada0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_img.h"
+          },
+          "hashes": {
+            "sha-256": "9d5a3e9138fb517736efb4620b13a2220571012a7175ac6227c6705f15e06ed4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_fs.h"
+          },
+          "hashes": {
+            "sha-256": "045580d3be0ddf32a31f676f01843784d90eeaba88a733927cf70a4e5120981f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_label.h"
+          },
+          "hashes": {
+            "sha-256": "6054fc9061b6a298b0ff1d4e2bc3ea4efab3e886946758118fe877178294faf9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_line.h"
+          },
+          "hashes": {
+            "sha-256": "5bf22166171dea4971b96d329066b1b0e1b5184f44c2a8f9335c2f0fd71ec6f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_page.h"
+          },
+          "hashes": {
+            "sha-256": "3609f41ebc1ed42d37b8dcfdd9e85a9f4ccaa062be92bd6c1ca215c179ce1f96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_list.h"
+          },
+          "hashes": {
+            "sha-256": "29dafbe73c96758e73f8e57b182c00dba52eaa04bf241966c2571e03a71064b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_chart.h"
+          },
+          "hashes": {
+            "sha-256": "0095bee75382dbf80aac9cb553f00d4cb5a146e401bf3e091ac938de0c4db8ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_table.h"
+          },
+          "hashes": {
+            "sha-256": "225ac6618a3630689f4bff77fec63b254fc7973f427a9c3d3fa8cb8e051e4908"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_cb.h"
+          },
+          "hashes": {
+            "sha-256": "8c2857b16dcf4764866c6f1bc0234967e24161dbb6bbd8a15e6e9a1dc633c030"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_bar.h"
+          },
+          "hashes": {
+            "sha-256": "87669c27b6b912c94bf9c20feefe42a8073bfe8b318278bdf8f7fe6ed08a26a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_slider.h"
+          },
+          "hashes": {
+            "sha-256": "e6f78c5f03af08db11848f96a2ee52555feaef57cd1e07ea6799d7c963a16309"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_led.h"
+          },
+          "hashes": {
+            "sha-256": "a0cf45f809728bf042897141470ca4bddd0e6240d9d35b26f271f2406b304970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_btnm.h"
+          },
+          "hashes": {
+            "sha-256": "71da30c64ab9110ddc0a2a0d06731062a550a6a266fa11bc7273669925eda8f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_kb.h"
+          },
+          "hashes": {
+            "sha-256": "58f9fb0f45ae5f13768b60d3eed995e5ca34b0f975c334fd177f277a473e8959"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_ddlist.h"
+          },
+          "hashes": {
+            "sha-256": "4890440360971f424dba3cdce8fdff5e5e65ededeb7ed47c2e9f4757ead56ac9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_roller.h"
+          },
+          "hashes": {
+            "sha-256": "5feff780161f14a3a13757657dbdd6b8fb7c3514739eda15567bf210c7c1f0fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_ta.h"
+          },
+          "hashes": {
+            "sha-256": "de081b2f1b48033866cbdaacf395db9e13bf853d2abaa03c5dd8add0ae361f2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_canvas.h"
+          },
+          "hashes": {
+            "sha-256": "1d3fc9dbad3badff96a11ec508e7700c7b6513b5cd373acdc137c8b0a0c9ec4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_win.h"
+          },
+          "hashes": {
+            "sha-256": "48be8e6e5f7f468af64a6a5a43c79f251fe20f4d96d3348887bc188e86ad289f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_tabview.h"
+          },
+          "hashes": {
+            "sha-256": "399f56ed2478c5fda764645c45a6af265416bab0d84157857357078ab9426a57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_tileview.h"
+          },
+          "hashes": {
+            "sha-256": "a939639ef8f10bce36aa721d8456631285f3f845148ab91f50e66220fa2db0b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_mbox.h"
+          },
+          "hashes": {
+            "sha-256": "6070a27c73c9ddb395a2b5dcebb8c3a6ce1a1039f08af77d6919ed3daa740d5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_gauge.h"
+          },
+          "hashes": {
+            "sha-256": "f5afa2384554fab32e037d89375780fab1e3b10baf358ba693b363047cb690ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_lmeter.h"
+          },
+          "hashes": {
+            "sha-256": "2b0926e11013399e0b763dbc1a1f509d01a19269bbae65fcd244ae6d9e6681d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_sw.h"
+          },
+          "hashes": {
+            "sha-256": "b8dcda03fd3bfb40e9a70a4aaf593f3ae3eaad0dd7b905660e667ff0521815c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_arc.h"
+          },
+          "hashes": {
+            "sha-256": "97f5c72e86b0b616ede32fa7ed5a3e101ccde159b81f5aa7dfea45b425617647"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_preload.h"
+          },
+          "hashes": {
+            "sha-256": "336a68796ebd3e3549af1b086826264d3c50ef6a292cc331a9de2462d2d391f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_calendar.h"
+          },
+          "hashes": {
+            "sha-256": "45348b7155779dfac69fe2f533058e89888390ab011c0d5f32a6f294d7e5f56f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_objx/lv_spinbox.h"
+          },
+          "hashes": {
+            "sha-256": "d9b0975dbae859d47fc54318ffe17ff9dbf0babc9c5389019e87398e00cac672"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_ex_conf.h"
+          },
+          "hashes": {
+            "sha-256": "cd9bac4044a3c248351e4957d85239a5a20775357474dccf4a4ff0fd91dd9c4e"
+          }
+        }
+      ]
+    }
+  ]
+}

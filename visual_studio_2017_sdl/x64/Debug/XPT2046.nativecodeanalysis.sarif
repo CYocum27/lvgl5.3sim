@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_drivers/indev/xpt2046.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1482216593d1d22774bda964c3b5444adbda0c3ed872e12fc3d6f1a1053ec250"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_drivers/indev/xpt2046.h"
+          },
+          "hashes": {
+            "sha-256": "aa563a0123580b81ab35024c8bc342651753b5ae12845dfd6b90096e51f48dd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_drv_conf.h"
+          },
+          "hashes": {
+            "sha-256": "7b41e74f8862ae1888533f582219c5d889db56e118258ba176126ec95226402f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_conf.h"
+          },
+          "hashes": {
+            "sha-256": "835354b0fa905ef70c1a11e3b99a882ea3fdd0747625f0f373cdc8fbfc9ed7ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_conf_checker.h"
+          },
+          "hashes": {
+            "sha-256": "9de88bb356f18fe7e8fac37bb5d0d46c1bd49c78163b13ea4de62eff5b178a5b"
+          }
+        }
+      ]
+    }
+  ]
+}

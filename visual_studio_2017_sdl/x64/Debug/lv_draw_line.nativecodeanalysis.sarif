@@ -1,0 +1,1857 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '255' is out of valid index range '0' to '63' for possibly stack allocated buffer 'pattern'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                },
+                "region": {
+                  "startLine": 273,
+                  "startColumn": 13,
+                  "endLine": 273,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "line_draw_skew",
+                  "decoratedName": "line_draw_skew",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '255' is out of valid index range '0' to '63' for possibly stack allocated buffer 'pattern'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 13,
+                  "endLine": 274,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "line_draw_skew",
+                  "decoratedName": "line_draw_skew",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'pattern'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                },
+                "region": {
+                  "startLine": 380,
+                  "startColumn": 24,
+                  "endLine": 380,
+                  "endColumn": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "line_draw_skew",
+                  "decoratedName": "line_draw_skew",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 249,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'pattern' is an array of 64 elements (256 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'width!=0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'sqr>=width_sqr' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'sqr>=width_sqr' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'width==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 294,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 295,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 299,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 301,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'width!=0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 302,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 303,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<width' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'width!=0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'main_line->hor' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 380,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'pattern[-2]', (readable range is 0 to 63)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'pattern'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                },
+                "region": {
+                  "startLine": 532,
+                  "startColumn": 76,
+                  "endLine": 532,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "line_draw_skew",
+                  "decoratedName": "line_draw_skew",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 249,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'pattern' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'width!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'width==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 292,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 294,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 295,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 298,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 299,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 301,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'width!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 306,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 307,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<width' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'width!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 403,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 404,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 406,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'main_line->hor==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 407,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'main_line->sx<0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 412,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 427,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 428,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 429,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 430,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 432,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'main_line->hor' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 485,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'line_next_x(main_line)' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 516,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 516,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<width' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 532,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+                          },
+                          "region": {
+                            "startLine": 532,
+                            "startColumn": 76
+                          }
+                        },
+                        "message": {
+                          "text": "'pattern' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/chase/OneDrive/Documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f01d956fcb54e7e96a65a77c7c26338136da61edef313272a692bbc7119e6b02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw.h"
+          },
+          "hashes": {
+            "sha-256": "742b3b99bc78569d9f533747638c689d25847395cd68086c7c1c8409bdd3bfca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_conf.h"
+          },
+          "hashes": {
+            "sha-256": "835354b0fa905ef70c1a11e3b99a882ea3fdd0747625f0f373cdc8fbfc9ed7ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_conf_checker.h"
+          },
+          "hashes": {
+            "sha-256": "9de88bb356f18fe7e8fac37bb5d0d46c1bd49c78163b13ea4de62eff5b178a5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_style.h"
+          },
+          "hashes": {
+            "sha-256": "6a8810250f9f8aa9b85eedc805eacbb3a2b1be6bdb2c5952731f031f59f0cfc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_color.h"
+          },
+          "hashes": {
+            "sha-256": "e0049bed97154aa91d3b8e0cdb2ede9424430c0ad15b2270d6b62b5423c34eaf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_area.h"
+          },
+          "hashes": {
+            "sha-256": "4f0c2346be1484c4ea8c427267dcaaf7387b45ab6b5ffde45d3370515baa38b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_font.h"
+          },
+          "hashes": {
+            "sha-256": "51c29173818602adb07fa5ac2814b432688e52eba5b741810da53b213e95bb54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_symbol_def.h"
+          },
+          "hashes": {
+            "sha-256": "18197127869d8e7680aadbb7cf0ed283078a1743439133d0ce019123e8610a5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_fonts/lv_font_builtin.h"
+          },
+          "hashes": {
+            "sha-256": "57a59522eb5ade198dff616d3346874550b80a4e10d471b4a60b41325a2851ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_anim.h"
+          },
+          "hashes": {
+            "sha-256": "6bb8faf60493c3dee77f1ffe83697905c7dc48696b023fc4d538507f79d9ed47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_txt.h"
+          },
+          "hashes": {
+            "sha-256": "9500a9ae555621d32c0e7a76019f8790887e90f54cee312ca5adc97a70a742f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_rect.h"
+          },
+          "hashes": {
+            "sha-256": "696b148469896f561cf690306f69bbd561dde40279a68ac24b4897f78f918a52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_label.h"
+          },
+          "hashes": {
+            "sha-256": "edbd59bbce4bd9db2cc2334fb6572d66c723694f5321c65f63f5295e76ed305d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_img.h"
+          },
+          "hashes": {
+            "sha-256": "48b085827fb6f54637722c9f37eda8d064be79538c377f309a06f7502f995c37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_core/lv_obj.h"
+          },
+          "hashes": {
+            "sha-256": "9aff9aa92748e6fe71f0f91410e506c4dac7713429b09d82154e97d419f55cc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_mem.h"
+          },
+          "hashes": {
+            "sha-256": "4dc4a891d3dff4bc7e91cff79e93f016bafbe2e82720ad59fda7f61086892a6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_log.h"
+          },
+          "hashes": {
+            "sha-256": "ab5307b312f745923329a1082a3d43468b2a97bbc666e716b5b9bcc54214ad76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_ll.h"
+          },
+          "hashes": {
+            "sha-256": "3d90aa411cb6dc79ba88322d4e2451764f3b66d42ddff34cfb89615603df1dc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_line.h"
+          },
+          "hashes": {
+            "sha-256": "c66eff2ba109188d20af0ae2fce973f3ec838ba751a9d41f795a373b15da2c7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_draw/lv_draw_triangle.h"
+          },
+          "hashes": {
+            "sha-256": "babf929a88c6e5b4c676caa0830b17c8c01562da67c045aacdd61b2f420dada0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_math.h"
+          },
+          "hashes": {
+            "sha-256": "f86f3c499198c24ab87920df29ac6ff6fd4397a46f8347df37319a9c33bcb69e"
+          }
+        }
+      ]
+    }
+  ]
+}

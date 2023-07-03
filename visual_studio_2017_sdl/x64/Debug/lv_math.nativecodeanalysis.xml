@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+      <FILENAME>lv_math.c</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'sin0_90_table'.</DESCRIPTION>
+    <FUNCTION>lv_trigo_sin</FUNCTION>
+    <DECORATED>lv_trigo_sin</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'angle&lt;0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'angle&lt;90' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'angle&gt;=90&amp;&amp;angle&lt;180' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'angle&gt;=180&amp;&amp;angle&lt;270' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_misc\</FILEPATH>
+        <FILENAME>lv_math.c</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'sin0_90_table[271]', (readable range is 0 to 90)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

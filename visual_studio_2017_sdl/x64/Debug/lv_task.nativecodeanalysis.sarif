@@ -1,0 +1,99 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_task.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a2b66bf45c98177c58e200e14752577b82167a88f35561c64e85ceb7f8a9c9d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_task.h"
+          },
+          "hashes": {
+            "sha-256": "c5e324974bc95bfd877e3db8669ff73dcb8165dee1ec53fb57bbc0b98331283c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lv_conf.h"
+          },
+          "hashes": {
+            "sha-256": "835354b0fa905ef70c1a11e3b99a882ea3fdd0747625f0f373cdc8fbfc9ed7ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_conf_checker.h"
+          },
+          "hashes": {
+            "sha-256": "9de88bb356f18fe7e8fac37bb5d0d46c1bd49c78163b13ea4de62eff5b178a5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_mem.h"
+          },
+          "hashes": {
+            "sha-256": "4dc4a891d3dff4bc7e91cff79e93f016bafbe2e82720ad59fda7f61086892a6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_log.h"
+          },
+          "hashes": {
+            "sha-256": "ab5307b312f745923329a1082a3d43468b2a97bbc666e716b5b9bcc54214ad76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_ll.h"
+          },
+          "hashes": {
+            "sha-256": "3d90aa411cb6dc79ba88322d4e2451764f3b66d42ddff34cfb89615603df1dc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_hal/lv_hal_tick.h"
+          },
+          "hashes": {
+            "sha-256": "261aa2f7fa66c43cb1177668e612934b97c31e7552f56938966183dbce26bff0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/chase/onedrive/documents/lvgl5.3sim/visual_studio_2017_sdl/lvgl/lv_misc/lv_gc.h"
+          },
+          "hashes": {
+            "sha-256": "60cd72c9112efbd177b894d58e7f025f0a4c505108b444150f454ee4b250f8c4"
+          }
+        }
+      ]
+    }
+  ]
+}

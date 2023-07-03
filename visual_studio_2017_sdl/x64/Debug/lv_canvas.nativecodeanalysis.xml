@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_objx\</FILEPATH>
+      <FILENAME>lv_canvas.c</FILENAME>
+      <LINE>306</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_canvas_copy_buf</FUNCTION>
+    <DECORATED>lv_canvas_copy_buf</DECORATED>
+    <FUNCLINE>293</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_objx\</FILEPATH>
+      <FILENAME>lv_canvas.c</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_canvas_copy_buf</FUNCTION>
+    <DECORATED>lv_canvas_copy_buf</DECORATED>
+    <FUNCLINE>293</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

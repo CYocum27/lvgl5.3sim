@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_objx\</FILEPATH>
+      <FILENAME>lv_tabview.c</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_tabview_add_tab</FUNCTION>
+    <DECORATED>lv_tabview_add_tab</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

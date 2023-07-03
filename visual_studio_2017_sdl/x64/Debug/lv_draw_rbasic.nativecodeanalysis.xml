@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_draw\</FILEPATH>
+      <FILENAME>lv_draw_rbasic.c</FILENAME>
+      <LINE>167</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_rletter</FUNCTION>
+    <DECORATED>lv_rletter</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_draw\</FILEPATH>
+      <FILENAME>lv_draw_rbasic.c</FILENAME>
+      <LINE>167</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_rletter</FUNCTION>
+    <DECORATED>lv_rletter</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_draw\</FILEPATH>
+      <FILENAME>lv_draw_rbasic.c</FILENAME>
+      <LINE>232</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_rmap</FUNCTION>
+    <DECORATED>lv_rmap</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_draw\</FILEPATH>
+      <FILENAME>lv_draw_rbasic.c</FILENAME>
+      <LINE>232</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_rmap</FUNCTION>
+    <DECORATED>lv_rmap</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_draw\</FILEPATH>
+      <FILENAME>lv_draw_rbasic.c</FILENAME>
+      <LINE>233</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_rmap</FUNCTION>
+    <DECORATED>lv_rmap</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\chase\OneDrive\Documents\lvgl5.3sim\visual_studio_2017_sdl\lvgl\lv_draw\</FILEPATH>
+      <FILENAME>lv_draw_rbasic.c</FILENAME>
+      <LINE>247</LINE>
+      <COLUMN>77</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>lv_rmap</FUNCTION>
+    <DECORATED>lv_rmap</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

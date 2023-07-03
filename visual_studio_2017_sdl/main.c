@@ -17,6 +17,7 @@
 #include "lv_examples/lv_apps/benchmark/benchmark.h"
 #include "lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.h"
 #include "lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.h"
+#include "myproject/screens.h"
 
 /*********************
 *      DEFINES
@@ -54,8 +55,13 @@ int main(int argc, char** argv)
     hal_init();
 
     /*Load a demo*/
-    demo_create();
-
+    //demo_create();
+    initscreen();
+    lv_task_handler();
+    printf("Loaded init screen\n");
+    Sleep(1500);
+    autonselector();
+    printf("Loaded auton selector\n");
     /*Try the benchmark to see how fast is your GUI*/
     //benchmark_create();
 
