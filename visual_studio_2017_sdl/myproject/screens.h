@@ -7,3 +7,6 @@
 extern void initscreen();
 extern void clearScreen();
 extern void autonselector();
+extern void initscreen();
+extern void homescreen();
+extern void debugScreen();

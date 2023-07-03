@@ -492,6 +492,12 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="myproject\screens.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myproject\pagehandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lv_drivers\display\fbdev.h">
@@ -927,6 +933,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lv_examples\lv_tests\lv_test_theme\lv_test_theme_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myproject\screens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myproject\pagehandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

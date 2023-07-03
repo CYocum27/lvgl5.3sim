@@ -60,8 +60,8 @@ int main(int argc, char** argv)
     lv_task_handler();
     printf("Loaded init screen\n");
     Sleep(1500);
-    autonselector();
-    printf("Loaded auton selector\n");
+    homescreen();
+    printf("Loaded homescreen\n");
     /*Try the benchmark to see how fast is your GUI*/
     //benchmark_create();
 

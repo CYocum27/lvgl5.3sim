@@ -286,6 +286,7 @@
     <ClCompile Include="lv_examples\lv_tutorial\8_animations\lv_tutorial_animations.c" />
     <ClCompile Include="lv_examples\lv_tutorial\9_responsive\lv_tutorial_responsive.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="myproject\pagehandler.c" />
     <ClCompile Include="myproject\screens.c" />
   </ItemGroup>
   <ItemGroup>
@@ -434,6 +435,7 @@
     <ClInclude Include="lv_examples\lv_tutorial\8_animations\lv_tutorial_animations.h" />
     <ClInclude Include="lv_examples\lv_tutorial\9_responsive\lv_tutorial_responsive.h" />
     <ClInclude Include="lv_ex_conf.h" />
+    <ClInclude Include="myproject\pagehandler.h" />
     <ClInclude Include="myproject\screens.h" />
   </ItemGroup>
   <ItemGroup>
